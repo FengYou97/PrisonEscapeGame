@@ -43,6 +43,7 @@ public class MapPane extends BorderPane {
 		HBox titleBox = new HBox();
 		
 		map.makeGrid();
+		map.placeGuard(3, 3);
 		showMap();
 
 		button.setOnMouseClicked(e -> {
@@ -95,11 +96,12 @@ public class MapPane extends BorderPane {
 				} else if (map.asylumLayout[column][row].getValue() == 'E') {
 					block.setText("E");
 					block.getStyleClass().add("end");
-					
 				} else if (map.asylumLayout[column][row].getValue() == 'S') {
 					block.setText("S");
 					block.getStyleClass().add("start");
-
+				} else if (map.asylumLayout[column][row].getValue() == 'G') {
+					block.setText("G");
+					block.getStyleClass().add("guard");
 				} else {
 					block.getStyleClass().add("plainBox");
 				}

@@ -38,10 +38,13 @@ public class AsylumMap {
 			}
 		}
 		// for(int j = 0 ; j < 20 ; j++) {
-		// for (int i = 0 ; i < 20; i++) {
-		// System.out.println(asylumLayout[i][j]);
-		// }
+		//   for (int i = 0 ; i < 20; i++) {
+		//        System.out.println(asylumLayout[i][j]);
+		//    }
 		// }
 	}
 
+	public void placeGuard(int column, int row) {
+		asylumLayout[column][row].setBlock('G');
+	}
 }
