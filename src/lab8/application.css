@@ -1,0 +1,82 @@
+.border {
+   -fx-alignment: center;
+   -fx-background-color: black;
+}
+
+.button {
+   -fx-font-size: 20px;
+   -fx-alignment: center;
+   -fx-alternative-row-fill-visible: true;
+   -fx-alternative-column-fill-visible: true;
+}
+
+.end {
+	-fx-background-color: chartreuse;
+   -fx-font-size: 100%;
+   -fx-min-height: 30px;
+   -fx-min-width: 30px;
+   -fx-border-width: 1px;
+   -fx-border-color: grey;
+   -fx-text-fill: black;
+   -fx-alignment: center;
+}
+.grid {
+   -fx-alignment: top-center;
+   -fx-min-height: 600px;
+   -fx-min-width: 600px;
+   -fx-background-color: black;
+}
+
+.guard {
+	-fx-background-color: DarkOrange;
+  	-fx-min-height: 30px;
+  	-fx-min-width: 30px;
+	-fx-border-width: 1px;
+	-fx-border-color: grey;
+}
+
+.lunatic {
+	-fx-background-color: crimson;
+  	-fx-min-height: 30px;
+  	-fx-min-width: 30px;
+	-fx-border-width: 1px;
+	-fx-border-color: grey;
+}
+
+.plainBox {
+   -fx-background-color: beige ;
+   -fx-min-height: 30px;
+   -fx-min-width: 30px;
+}
+
+.start {
+   -fx-background-color: red;
+   -fx-font-size: 100%;
+   -fx-min-height: 30px;
+   -fx-min-width: 30px;
+   -fx-border-width: 1px;
+   -fx-border-color: grey;
+   -fx-text-fill: black;
+   -fx-alignment: center;
+}
+
+.title {
+   -fx-alignment: baseline-center;
+   -fx-font-size: 225%;
+   -fx-background-color: orange;
+   -fx-font-style: oblique;
+   -fx-alternative-column-fill-visible: true;
+   -fx-alternative-row-fill-visible: true;
+}
+
+.wall {
+   -fx-background-color: black;
+   -fx-min-height: 30px;
+   -fx-min-width: 30px;
+   -fx-border-width: 1px;
+   -fx-border-color: grey;
+}
+
+.text {
+   -fx-text-fill: white;
+}
